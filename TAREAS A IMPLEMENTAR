@@ -1,0 +1,24 @@
+Entregables Para el Proyecto AppSalón
+
+1. Cambiar el estado de la cita y pagos
+	- Crear modelo de cita finalizada
+	- Implementar botones para cambio de estado de la cita
+	- Agregarlos con JS y dar estilos
+	- Crear Modelo de Pagos
+	- Implementar botones para cambio de estado del pago
+	- Agregarlos con JS y darles estilos
+
+2. Modificar la selección de servicios
+	- Elegir solamente 2 por cada cita de 2 horas
+	- Agregar disponibilidad de horarios
+	- Elegir sólo una hora
+	- Eliminar la hora seleccionada
+	- Almacenar la hora en la cita creada
+	
+3. Notificación de cita creada
+	- Crear correo electrónico que se envía cuando se crea la cita
+	- Crear alerta para traslado o emergencia de cita - Crear nueva cita
+
+4. Nuevo apartado para trasladar horario en caso de emergencia
+	- Botón para enviar notificación al correo registrado de la cita
+	- Eliminar las citas almacenadas ese día de emergencia
