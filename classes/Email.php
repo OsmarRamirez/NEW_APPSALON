@@ -39,7 +39,7 @@ class Email
 
         $contenido = "<html>";
         $contenido .= "<p><strong>Hola " . $this->nombre . "</strong> Has creado tu cuenta en App Salón, sólo debes confirmarla presionando el siguiente enlace</p>";
-        $contenido .= "<p>Presiona aquí: <a href='http://localhost:7000/confirmar-cuenta?token=". $this->token . "'>Confirmar Cuenta</a> </p>";
+        $contenido .= "<p>Presiona aquí: <a href='https://gentle-sands-53485.herokuapp.com/confirmar-cuenta?token=". $this->token . "'>Confirmar Cuenta</a> </p>";
         $contenido .= "<p>Si tú no solicitaste esta cuenta, puedes ignorar el mensaje.</p>";
         $contenido .= "</html>";
         $mail->Body = $contenido;
@@ -68,7 +68,7 @@ class Email
 
         $contenido = "<html>";
         $contenido .= "<p><strong>Hola " . $this->nombre . "</strong> Has solicitado restablecer tu password, sigue el siguiente enlace para hacerlo.</p>";
-        $contenido .= "<p>Presiona aquí: <a href='http://localhost:7000/recuperar?token=" . $this->token . "'>Reestablecer Password</a> </p>";
+        $contenido .= "<p>Presiona aquí: <a href='https://gentle-sands-53485.herokuapp.com/recuperar?token=" . $this->token . "'>Reestablecer Password</a> </p>";
         $contenido .= "<p>Si tú no solicitaste esta cuenta, puedes ignorar el mensaje.</p>";
         $contenido .= "</html>";
         $mail->Body = $contenido;
